@@ -1,3 +1,3 @@
-let button = document.querySelector('button').onclick = function () { alert('Klik działa') };
+let button = document.querySelector('button');
 
-onclick.button('Klik działa');
+document.querySelector('button').onclick = function () { alert('Klik działa') };
