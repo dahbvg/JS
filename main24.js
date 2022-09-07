@@ -1,3 +1,3 @@
 let text = "Uwielbian JavaScript";
 
-console.log(Text);
+console.log(text);
