@@ -6,19 +6,11 @@ console.log(en2)
 
 function twenty(n1, n2) {
 
-    let dodawanie = (n1 + n2);
+    console.log('Wynik dodawania wynosi ' + (n1 + n2));
 
-    console.log('Wynik dodawania wynosi ' + dodawanie);
+    console.log('Wynik odejmowania wynosi ' + (n1 - n2));
 
-    let odejmowanie = (n1 - n2);
-
-    console.log('Wynik odejmowania wynosi ' + odejmowanie);
-
-    let mnozenie = (n1 - n2);
-
-    console.log('Wynik mnożenia wynosi ' + n1 * n2)
+    console.log('Wynik mnożenia wynosi ' + (n1 * n2));
 }
-
-
 
 twenty(en1, en2)
