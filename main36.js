@@ -5,10 +5,10 @@ console.log(en1)
 console.log(en2)
 
 function twenty(n1, n2) {
-    if ((n1 == 20) || (n2 == 20) || (n1 + n2 <= 20)) {
-        console.log('true');
+    if ((n1 === 20) || (n2 === 20) || (n1 + n2 <= 20)) {
+        return true;
     } else {
-        console.log('false');
+        return false;
     }
 
 }
